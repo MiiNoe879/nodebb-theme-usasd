@@ -26,23 +26,23 @@
 
 <body class="{bodyClass} skin-{config.bootswatchSkin}">
 	<div class="new-navbar-custom largeNavbar">
-    <div class="container">
-        <div class="brand">
-            <a href="/registration">
-                <img id="navSeal" src="/images/Seal@2x.png" />
-                <span>USA Service Dog Registry</span><br>
-            </a>
-        </div>
-        <div class="header-topright">
-            <ul class="mainmenu">
-                <li>
-                    <div class="button-register"><a href="/registration">Register</a></div>
-                </li>
-            </ul>
-        </div>
-    </div>
-    <div class="header-bottom-menu">
         <div class="container">
+            <div class="brand">
+                <a href="/registration">
+                    <img id="navSeal" src="/images/Seal@2x.png" />
+                    <span>USA Service Dog Registry</span><br>
+                </a>
+            </div>
+            <div class="header-topright">
+                <ul class="mainmenu">
+                    <li>
+                        <div class="button-register"><a href="/registration">Register</a></div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="header-bottom-menu">
+            <div class="container">
                 <div class="col-xs-2 text-left menu-item">
                     <div>
                         <a href="/shop">Shop</a>
@@ -68,22 +68,10 @@
                         <a href="/contact">Contact</a>
                     </div>
                 </div>
-                <div class="col-xs-4 text-right menu-item">
-                    <div>
-                        <a href="/cart">
-                            <img src="/images/ShoppingCart.png" width="35" style="margin-right:10px;">Cart <% if (cartSize > 0) { %> (<%= cartSize %>) <% } %>
-                        </a>
-                    </div>
-                </div>
+            </div>
         </div>
     </div>
-</div>
 
 	<main id="panel" class="slideout-panel">
-		<nav class="navbar navbar-default navbar-fixed-top header" id="header-menu" component="navbar">
-			<div class="container">
-				<!-- IMPORT partials/menu.tpl -->
-			</div>
-		</nav>
 		<div class="container" id="content">
 		<!-- IMPORT partials/noscript/warning.tpl -->
