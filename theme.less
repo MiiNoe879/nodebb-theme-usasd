@@ -1,1 +1,151 @@
 @import "../nodebb-theme-persona/theme";
+body {
+  padding-top: 0 !important;
+}
+.new-navbar-custom {
+  @media only screen and (max-width : 700px) {
+    display: none;
+  }
+  display: block;
+	background: url(../../images/faq-banner.jpg);
+	background-position: top;
+	height: 230px !important;
+	min-width: 500px;
+	border-bottom: solid 1px #000000;
+	.container {
+    display: flex;
+		align-items: center;
+		.brand {
+			margin-top: 35px;
+			a {
+				text-decoration: none;
+				color: #ffffff;
+				font-size: 22px;
+				font-style: italic;
+				#navSeal {
+					width: 122px !important;
+					height: 122px !important;
+				}
+				span {
+					margin-left: 30px;
+				}
+			}
+		}
+		.header-topright {
+      @media screen and (max-width: 1000px) {
+        margin: 54px 0 0 100px;
+      }
+			float: left;
+			margin: 54px 0 0 200px;
+			padding: 0;
+			.mainmenu {
+				margin: 0;
+				padding: 0;
+				li {
+					display: block;
+					float: left;
+					margin: 0 0 0 20px;
+					padding: 0;
+					.button-register {
+						background: #00806e;
+						height: 50px;
+						width: 100px;
+						text-align: center;
+						padding-top: 18px;
+						margin-top: -15px;
+						border-radius: 10px;
+					}
+					a {
+						display: block;
+						margin: 0;
+						padding: 0 0 7px 0;
+						font-weight: 600;
+						font-size: 14px;
+						line-height: 1;
+						color: #FFFFFF;
+						text-transform: uppercase;
+						border-bottom: 2px solid transparent;
+					}
+				}
+			}
+		}
+  }
+  
+  .header-bottom-menu {
+    width: 100%;
+    height: 60px;
+    background: #005341;
+    bottom: 0px;
+    margin-top: 12px;
+    color: white;
+    display: flex;
+    align-items: center;
+    .menu-item {
+      padding-top: 0;
+      padding-left: 0;
+      padding-right: 0;
+      min-width: 150px;
+      color: #ffffff;
+      font-size: 16px;
+      a {
+        color: #ffffff;
+        font-size: 15px;
+      }
+    }
+  }
+}
+
+.smallNavbar {
+  display: none;
+  @media only screen and (max-width : 700px) {
+    display: block;
+  }
+  background-color: #2c8b2f;
+  height: 78px;
+  .navbar-header {
+    margin-right: -15px;
+    margin-left: -15px;
+    height: 68px;
+    .navbar-toggle {
+      position: relative;
+      float: right;
+      padding: 9px 10px !important;
+      margin-right: 15px !important;
+      margin-bottom: 8px !important;
+      background-color: transparent;
+      background-image: none;
+      border: 1px solid white !important;
+      border-radius: 4px;
+    }
+    #mob-logo {
+      float: left;
+      height: 55px;
+      padding: 10px;
+    }
+    #mob-brand {
+      overflow: hidden;
+      vertical-align: middle;
+      display: table-cell;
+      font-size: 20px;
+      font-weight: bold;
+      color: white;
+      height: 80px;
+      padding-left: 0;
+      .text-middle {
+        vertical-align: middle !important;
+      }
+    }
+  }
+  .collapsed-item {
+    background-color: #2c8b2f;
+    li {
+      position: relative;
+      left: 1em;
+      padding-right: 1em;
+      a {
+        color: #ffffff !important;
+        font-size: 16px;
+      }
+    }
+  }
+}
