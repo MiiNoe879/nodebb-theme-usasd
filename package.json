@@ -1,0 +1,10 @@
+{
+  "name": "nodebb-theme-usasd",
+  "version": "0.0.0",
+  "description": "USASD theme",
+  "main": "theme.less",
+  "keywords": [
+
+  ],
+  "license": "MIT"
+}
