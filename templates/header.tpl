@@ -28,7 +28,7 @@
 	<div class="new-navbar-custom largeNavbar">
         <div class="container">
             <div class="brand">
-                <a href="/registration">
+                <a href="./#">
                     <img id="navSeal" src="/images/Seal@2x.png" />
                     <span>USA Service Dog Registry</span><br>
                 </a>
@@ -36,6 +36,11 @@
         </div>
         <div class="header-bottom-menu">
             <div class="container">
+                <div class="col-xs-2 text-left menu-item">
+                    <div>
+                        <a href="/shop">Home</a>
+                    </div>
+                </div>
                 <div class="col-xs-2 text-left menu-item">
                     <div>
                         <a href="/shop">Shop</a>
