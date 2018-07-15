@@ -38,7 +38,7 @@
             <div class="container">
                 <div class="col-xs-2 text-left menu-item">
                     <div>
-                        <a href="/shop">Home</a>
+                        <a href="/">Home</a>
                     </div>
                 </div>
                 <div class="col-xs-2 text-left menu-item">
