@@ -33,13 +33,6 @@
                     <span>USA Service Dog Registry</span><br>
                 </a>
             </div>
-            <div class="header-topright">
-                <ul class="mainmenu">
-                    <li>
-                        <div class="button-register"><a href="/registration">Register</a></div>
-                    </li>
-                </ul>
-            </div>
         </div>
         <div class="header-bottom-menu">
             <div class="container">
