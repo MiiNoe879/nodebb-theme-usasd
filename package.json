@@ -1,14 +1,14 @@
 {
-  "name": "nodebb-theme-persona",
+  "name": "nodebb-theme-usasd",
   "version": "9.1.5",
   "nbbpm": {
     "compatibility": "^1.11.0"
   },
-  "description": "Persona theme for NodeBB",
+  "description": "USASD theme for NodeBB",
   "main": "theme.less",
   "repository": {
     "type": "git",
-    "url": "https://github.com/psychobunny/nodebb-theme-persona"
+    "url": "https://github.com/MiiNoe879/nodebb-theme-usasd"
   },
   "keywords": [
     "nodebb",
@@ -19,24 +19,14 @@
   ],
   "contributors": [
     {
-      "name": "Andrew Rodrigues",
-      "email": "andrew@designcreateplay.com",
-      "url": "https://github.com/psychobunny"
-    },
-    {
-      "name": "Julian Lam",
-      "email": "julian@designcreateplay.com",
-      "url": "https://github.com/julianlam"
-    },
-    {
-      "name": "Barış Soner Uşaklı",
-      "email": "baris@designcreateplay.com",
-      "url": "https://github.com/barisusakli"
+      "name": "Leonid Popov",
+      "email": "leonid.popob923@outlook.com",
+      "url": "https://github.com/MiiNoe879"
     }
   ],
   "license": "BSD-2-Clause",
   "bugs": {
-    "url": "https://github.com/psychobunny/nodebb-theme-persona/issues"
+    "url": "https://github.com/MiiNoe879/nodebb-theme-usasd/issues"
   },
   "dependencies": {
     "pulling": "^2.0.0",
