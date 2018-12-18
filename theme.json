@@ -1,6 +1,7 @@
 {
     "id": "nodebb-theme-usasd",
     "name": "USASD",
-    "description": "USASD theme",
-    "url": "https://github.com/nodebb/nodebb-theme-quickstart"
+    "description": "The default theme for NodeBB. Uses a standard approach to forum design.",
+    "url": "https://github.com/MiiNoe879/nodebb-theme-usasd",
+    "screenshot": "screenshot.png"
 }
