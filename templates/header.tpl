@@ -29,8 +29,7 @@
         <div class="container">
             <div class="brand">
                 <a href="./#">
-                    <div id="navSeal">
-                    </div>
+                    <img id="navSeal" src="/images/Seal@2x.png" />
                     <span>USA Service Dog Registry</span><br>
                 </a>
             </div>
