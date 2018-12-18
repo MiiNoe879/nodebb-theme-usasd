@@ -68,13 +68,6 @@
                         <a href="/contact">Contact</a>
                     </div>
                 </div>
-                <div class="col-xs-4 text-right menu-item">
-                    <div>
-                        <a href="/cart">
-                            <img src="/images/ShoppingCart.png" width="35" style="margin-right:10px;">Cart <% if (cartSize > 0) { %> (<%= cartSize %>) <% } %>
-                        </a>
-                    </div>
-                </div>
         </div>
     </div>
 </div>
