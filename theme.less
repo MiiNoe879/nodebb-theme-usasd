@@ -1,5 +1,8 @@
 @import "./less/bootstrap/bootstrap";
 @import "./less/persona";
+@logo-image: "./less/images/logo.png";
+@banner-image: "./less/images/faq-banner.jpg";
+
 body {
   padding-top: 0 !important;
 }
@@ -12,7 +15,7 @@ body {
   }
   margin-bottom: 30px;
   display: block;
-	background: url(../../images/faq-banner.jpg);
+	background: url(@banner-image);
 	background-position: top;
 	height: 230px !important;
 	min-width: 500px;
@@ -29,7 +32,8 @@ body {
 				font-style: italic;
 				#navSeal {
 					width: 122px !important;
-					height: 122px !important;
+          height: 122px !important;
+          background: url(@logo-image);
 				}
 				span {
 					margin-left: 30px;
