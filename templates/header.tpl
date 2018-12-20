@@ -34,40 +34,6 @@
                 </a>
             </div>
         </div>
-        <div class="header-bottom-menu">
-            <div class="container">
-                <div class="col-xs-2 text-left menu-item">
-                    <div>
-                        <a href="/">Home</a>
-                    </div>
-                </div>
-                <div class="col-xs-2 text-left menu-item">
-                    <div>
-                        <a href="/shop">Shop</a>
-                    </div>
-                </div>
-                <div class="col-xs-2 text-left menu-item">
-                    <div>
-                        <a href="/service-dog-registration-benefits">More Info</a>
-                    </div>
-                </div>
-                <div class="col-xs-2 text-left menu-item">
-                    <div>
-                        <a href="/registration-faq">FAQ</a>
-                    </div>
-                </div>
-                <div class="col-xs-2 text-left menu-item">
-                    <div>
-                        <a href="/lookup">Lookup</a>
-                    </div>
-                </div>
-                <div class="col-xs-2 text-left menu-item">
-                    <div>
-                        <a href="/contact">Contact</a>
-                    </div>
-                </div>
-            </div>
-        </div>
     </div>
 
 	<main id="panel" class="slideout-panel">
